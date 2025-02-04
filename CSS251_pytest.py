@@ -2,7 +2,7 @@ import pytest
 from bs4 import BeautifulSoup
 
 def load_html():
-    with open("hajo_felepitese.html", "r", encoding="utf-8") as file:
+    with open("CSS251.html", "r", encoding="utf-8") as file:
         return file.read()
 
 def test_title():
